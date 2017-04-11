@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton q6_corr_ans;    // Check the correct answer for question 6
     private CheckBox q7_corr_ans1;      // Check the correct answers for question 7
     private CheckBox q7_corr_ans2;
+    private CheckBox q7_corr_ans3;
+    private CheckBox q7_corr_ans4;
     private RadioButton q8_corr_ans;    // Check the correct answer for question 8
     private RadioButton q9_corr_ans;    // Check the correct answer for question 9
 
@@ -44,7 +46,9 @@ public class MainActivity extends AppCompatActivity {
         q5_corr_ans = (RadioButton) findViewById(R.id.ans5_2);  // Check the correct answer for question 5
         q6_corr_ans = (RadioButton) findViewById(R.id.ans6_2);  // Check the correct answer for question 6
         q7_corr_ans1 = (CheckBox) findViewById(R.id.ans7_1);    // Check the correct answer for question 7
-        q7_corr_ans2 = (CheckBox) findViewById(R.id.ans7_3);
+        q7_corr_ans2 = (CheckBox) findViewById(R.id.ans7_2);
+        q7_corr_ans3 = (CheckBox) findViewById(R.id.ans7_3);
+        q7_corr_ans4 = (CheckBox) findViewById(R.id.ans7_4);
         q8_corr_ans = (RadioButton) findViewById(R.id.ans8_3);  // Check the correct answer for question 8
         q9_corr_ans = (RadioButton) findViewById(R.id.ans9_4);  // Check the correct answer for question 9
 
@@ -136,11 +140,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
-        // Color correct answers
-        corrAnsGreen();
-
-
         // Checks condition of each and store it accordingly
         boolean isAns1Correct = q1_corr_ans.isChecked();
         boolean isAns2Correct = q2_corr_ans.isChecked();
@@ -150,6 +149,8 @@ public class MainActivity extends AppCompatActivity {
         boolean isAns6Correct = q6_corr_ans.isChecked();
         boolean isAns7_1Correct = q7_corr_ans1.isChecked();
         boolean isAns7_2Correct = q7_corr_ans2.isChecked();
+        boolean isAns7_3Correct = q7_corr_ans3.isChecked();
+        boolean isAns7_4Correct = q7_corr_ans4.isChecked();
         boolean isAns8Correct = q8_corr_ans.isChecked();
         boolean isAns9Correct = q9_corr_ans.isChecked();
 
@@ -177,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
         if (isAns6Correct){
             userScore ++;
         }
-        if (isAns7_1Correct && isAns7_2Correct){
+        if (isAns7_1Correct && isAns7_3Correct && !isAns7_2Correct && !isAns7_4Correct){
             userScore ++;
         }
 
@@ -189,6 +190,8 @@ public class MainActivity extends AppCompatActivity {
             userScore ++;
         }
 
+        // Color correct answers
+        corrAnsGreen();
 
         //create the message:
         CharSequence toastMessage = "Your score is: " + userScore + "/9";
@@ -207,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         q5_corr_ans.setTextColor(Color.GREEN);
         q6_corr_ans.setTextColor(Color.GREEN);
         q7_corr_ans1.setTextColor(Color.GREEN);
-        q7_corr_ans2.setTextColor(Color.GREEN);
+        q7_corr_ans3.setTextColor(Color.GREEN);
         q8_corr_ans.setTextColor(Color.GREEN);
         q9_corr_ans.setTextColor(Color.GREEN);
     }
@@ -221,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
         q5_corr_ans.setTextColor(Color.WHITE);
         q6_corr_ans.setTextColor(Color.WHITE);
         q7_corr_ans1.setTextColor(Color.WHITE);
-        q7_corr_ans2.setTextColor(Color.WHITE);
+        q7_corr_ans3.setTextColor(Color.WHITE);
         q8_corr_ans.setTextColor(Color.WHITE);
         q9_corr_ans.setTextColor(Color.WHITE);
     }
