@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Main linear layout Style -->
+    <style name="questionLLStyle">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#29B6F6</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Title Style -->
+    <style name="TitleStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#ecf0f1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Question Text Style -->
+    <style name="QuestionTextStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#ecf0f1</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- Answer Text Style -->
+    <style name="AnswerTextStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="buttonStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#29B6F6</item>
+    </style>
+
+</resources>

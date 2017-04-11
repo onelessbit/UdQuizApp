@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!-- Quiz Name -->
+    <string name="techQuiz_text">Tech Quiz App!</string>
+
+    <!-- Results Button -->
+    <string name="results_button">Results</string>
+
+    <!-- Reset Button -->
+    <string name="reset_button">Reset</string>
+
+    <!-- Question 3 text input -->
+    <string name="user_input">Type your answer here</string>
+
+
+    <!-- !!!Questions!!! -->
+    <!-- Question1 -->
+    <string name="question1_text">1: What does @ stand for?</string>
+    <string name="answer_1_1">in</string>
+    <string name="answer_1_2">at</string>
+    <string name="answer_1_3">with</string>
+    <string name="answer_1_4">to</string>
+
+    <!-- Question2 -->
+    <string name="question2_text">2: Which company produces the PlayStation home entertainment systems?</string>
+    <string name="answer_2_1">Samsung</string>
+    <string name="answer_2_2">Microsoft</string>
+    <string name="answer_2_3">Nintendo</string>
+    <string name="answer_2_4">Sony</string>
+
+    <!-- Question3 -->
+    <string name="question3_text">3: Which company does the man in the photo own?</string>
+    <string name="answer_3_1">Microsoft</string>
+    <string name="answer_3_2">LG</string>
+    <string name="answer_3_3">Apple</string>
+    <string name="answer_3_4">Samsung</string>
+
+    <!-- Question4 -->
+    <string name="question4_text">4: Who did NOT co-find Apple?</string>
+    <string name="answer_4_1">Ronald Wayne</string>
+    <string name="answer_4_2">Steve Jobs</string>
+    <string name="answer_4_3">Dennis Ritchie</string>
+    <string name="answer_4_4">Steve Wozniak</string>
+
+    <!-- Question5 -->
+    <string name="question5_text">5: Which company produced the first phone with a camera?</string>
+    <string name="answer_5_1">Panasonic</string>
+    <string name="answer_5_2">Sharp</string>
+    <string name="answer_5_3">Apple</string>
+    <string name="answer_5_4">Samsung</string>
+
+    <!-- Question7 -->
+    <string name="question6_text">6: Which company had the most sales in smartphones in 2016?</string>
+    <string name="answer_6_1">Microsoft</string>
+    <string name="answer_6_2">Samsung</string>
+    <string name="answer_6_3">Apple</string>
+    <string name="answer_6_4">Huawei</string>
+
+    <!-- Question6 -->
+    <string name="question7_text">7: Which two co-found Sony?</string>
+    <string name="answer_7_1">Masaru Ibuka</string>
+    <string name="answer_7_2">Jiangji Wong</string>
+    <string name="answer_7_3">Akio Morita</string>
+    <string name="answer_7_4">Wanqiang Li</string>
+
+
+    <!-- Question8 -->
+    <string name="question8_text">8: What of the following does Samsung NOT produce?</string>
+    <string name="answer_8_1">Ships</string>
+    <string name="answer_8_2">Buildings</string>
+    <string name="answer_8_3">Synthesizers</string>
+    <string name="answer_8_4">Smart Watches</string>
+
+    <!-- Question9 -->
+    <string name="question9_text">9: What does Xiaomi mean?</string>
+    <string name="answer_9_1">Courage</string>
+    <string name="answer_9_2">Millet</string>
+    <string name="answer_9_3">Foundation</string>
+    <string name="answer_9_4">To build</string>
+
+
+</resources>
